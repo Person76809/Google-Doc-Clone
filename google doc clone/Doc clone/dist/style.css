@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbar {
+  display: flex;
+  padding: 10px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.editor {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow: auto;
+}
+
+#bold-button, #italic-button, #underline-button {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#bold-button:active, #italic-button:active, #underline-button:active {
+  background-color: lightgray;
+}
+
+#font-size-select {
+  margin-left: 10px;
+}
+
+#download-pdf-button, #download-tex-button {
+  margin-left: 10px;
+  cursor: pointer;
+}
